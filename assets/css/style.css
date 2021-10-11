@@ -28,13 +28,20 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-h3{
+h2{
   color: #98fb98;
   font-family: "Raleway", sans-serif;
+}
+
+
+h1  {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
 
 }
 
@@ -227,7 +234,7 @@ h3{
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #151515;
-  background: #ffc451;
+  background: #98fb98;
 }
 
 .nav-menu .drop-down > a:after {
@@ -279,11 +286,11 @@ h3{
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid #98fb98;
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: #98fb98;
   color: #343a40;
 }
 
@@ -564,10 +571,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content h2 {
   font-weight: 700;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
+  color: #98fb98;
 }
 
 .about .content ul {
@@ -606,7 +614,7 @@ section {
 } 
 
 .fonte {
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: justify;
 }
 
@@ -994,7 +1002,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/vegetacao.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
