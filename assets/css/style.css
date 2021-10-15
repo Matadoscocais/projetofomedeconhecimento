@@ -28,11 +28,11 @@ a:hover {
   text-decoration: none;
 }
 
-h3, h4, h5, h6 {
+h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-h2{
+h2, h3{
   color: #98fb98;
   font-family: "Raleway", sans-serif;
 }
@@ -45,6 +45,19 @@ h1  {
 
 }
 
+.configuracao {
+margin-top: 50px;
+margin-bottom: 25px;
+margin-left: 50px;
+margin-right: 50px;
+text-align: justify;
+}
+
+.configuracao .img .displayed {
+  display: block;
+}
+
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1074,6 +1087,7 @@ section {
 .testimonials .owl-nav, .testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
+  color: #98fb98;
 }
 
 .testimonials .owl-dot {
@@ -1086,7 +1100,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #ffc451 !important;
+  background-color: #98fb98 !important;
 }
 
 @media (min-width: 1024px) {
@@ -1622,4 +1636,15 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+
+.Vegetação h3 {
+text-align: center;
+color: #98fb98;
+}
+
+.Vegetação img{
+width: 35%;
+margin-right: 35%; 
 }
